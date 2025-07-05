@@ -52,7 +52,7 @@ body {
 }
 
 
-button {
+#Header1-Buttons {
     padding: 10px 0;
     width: 400px;
     border: none;
@@ -66,7 +66,7 @@ button {
     align-self: center;
 }
 
-button:hover {
+#Header1-Buttons:hover {
     transform: scale(1.05);
     background: linear-gradient(to right, #000000, #ffffff, #000000);
     color: black;
@@ -222,5 +222,54 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;    
+    flex-direction: column;  
+    background-color: grey; 
+    opacity: 0.9; 
+}
+
+#Feature-Genres{
+    padding-top: 20px;
+    display: flex;
+    color: rgb(255, 255, 255);
+    gap:  60px;
+    justify-content: left;
+  
+    
+}
+
+#Feature-Genres-Block{
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;   
+    background-color: grey;
+    opacity: 0.8;
+}
+
+#Feature-Buttons{
+    padding-top: 20px;
+    display: flex;
+    gap: 20px;
+    background-color: transparent;
+    
+    
+}
+
+#Feature-Button{
+    font-size: 20px;
+    border: none;
+    border: 1px solid white;
+    background-color: grey;
+    opacity: 0.9;
+    border-radius: 10px;
+    width: 250px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+}
+
+#Feature-Button:hover{
+    background-color: white;
+    color: grey;
+    border: 1px solid grey;
 }
