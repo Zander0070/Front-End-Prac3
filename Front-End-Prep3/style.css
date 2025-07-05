@@ -1,7 +1,7 @@
 /* General reset */
 body {
     margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     color: white;
     
 }
@@ -122,6 +122,59 @@ button:hover {
     flex-direction: row;
     justify-content: center;
     gap: 250px;
+    
+    color: white;
+}
+
+
+#Body2 {
+       background: linear-gradient(to right, grey, black);
+    padding: 40px 20px;
+}
+
+
+#Body2-Header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+#Slot-Container3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    
+    color: white;
+}
+
+#Slot2{
+    
+    width: 450px;
+    height: 200px;
+    
+    border-radius: 20px;
+    text-align: center;
+    
+}
+
+#Slot2:hover{
+    transform: scale(1.1)
+
+}
+
+#Slot-Container4 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
     
     color: white;
 }
