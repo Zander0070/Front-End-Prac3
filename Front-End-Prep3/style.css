@@ -17,9 +17,7 @@ body {
     text-align: center;
 
     /* Gradient overlay + background image */
-    background: 
-        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
-        url(BackGround2.jpg);
+   background: url(NewBackGround.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -177,4 +175,52 @@ button:hover {
     gap: 50px;
     
     color: white;
+}
+
+
+#Feature-Page{
+    background: url(Feature-Background.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+   
+    
+}
+
+
+#Feature-Header{
+    color : rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    
+}
+
+
+
+#Feature-Info{
+    display: flex;
+    color: rgb(255, 255, 255);
+    gap:  60px;
+    justify-content: center;
+    
+}
+
+#Feature-Rating{
+    display: flex;
+    gap: 40px;
+    
+}
+
+#Feature-Rating-Block{
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
 }
